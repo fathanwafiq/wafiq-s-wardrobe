@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="header-slideshow">
+        <div class="overlay animate-fadein">
+          <h1>Welcome to <span>Wafiq's Wardrobe</span></h1>
+          <p>Tempat di mana gaya bertemu dengan kreativitas!</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#trending" class="animate-hover">Trending</a></li>
+        <li><a href="#about" class="animate-hover">About</a></li>
+        <li>
+          <a href="#fashion-types" class="animate-hover">Fashion Types</a>
+        </li>
+        <li><a href="#news" class="animate-hover">News</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Trending Section -->
+      <section id="trending">
+        <h2 class="animate-fadeup">What's Trending</h2>
+        <div class="card-container">
+          <div class="card animate-scale">
+            <img src="Streetwear.png" alt="Streetwear" />
+            <p>Streetwear: The rise of oversized fits</p>
+          </div>
+          <div class="card animate-scale">
+            <img
+              src="Retrp Revival.png"
+              alt="Retro Revival" />
+            <p>Retro Revival: Y2K is back</p>
+          </div>
+          <div class="card animate-scale">
+            <img
+              src="Sustainable.png"
+              alt="Sustainable Fashion" />
+            <p>Sustainable Fashion: Green is the new black</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-me" id="about">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Hi! Nama Saya <span class="highlight">Fathan Wafiq</span></h2>
+            <p>
+                Halo! Saya Fathan Wafiq, lulusan Fakultas Seni dan Desain dari Universitas Indonesia, dengan spesialisasi dalam Desain Fashion. Dunia fashion selalu menjadi bagian penting dalam hidup saya, memadukan estetika dengan kreativitas untuk menciptakan gaya yang autentik.
+            </p>
+            <p>
+                Blog ini lahir dari hasrat saya untuk berbagi wawasan, inspirasi, dan tren fashion terkini, baik dari pengalaman pribadi maupun eksplorasi industri. Saya percaya bahwa fashion bukan hanya tentang apa yang kita kenakan, tetapi bagaimana kita mengekspresikan diri dan menghadirkan cerita lewat gaya.
+
+            </p>
+            <p>Selamat datang, dan mari berbicara gaya bersama saya!</p>
+            
+          </div>
+          <div class="about-image">
+            <img src="Profil.jpg" alt="Your Fashion Style">
+          </div>
+        </div>
+      </section>
+
+      <!-- Fashion Types Section -->
+      <main>
+        <!-- Types of Fashion Section -->
+        <section id="fashion-types" class="animate-fadeup">
+          <h2>Types of Fashion</h2>
+          <div class="carousel-container">
+            <button class="carousel-btn prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel">
+              <div class="carousel-item">
+                <img src="Casual.png" alt="Casual Fashion" />
+                <p>Casual</p>
+              </div>
+              <div class="carousel-item">
+                <img src="Formal.png" alt="Formal Fashion" />
+                <p>Formal</p>
+              </div>
+              <div class="carousel-item">
+                <img src="Sportwear.png" alt="Sportswear" />
+                <p>Sportswear</p>
+              </div>
+              <div class="carousel-item">
+                <img src="Vintage.png" alt="Vintage Fashion" />
+                <p>Vintage</p>
+              </div>
+              <div class="carousel-item">
+                <img src="Luxury.png" alt="Luxury Fashion" />
+                <p>Luxury</p>
+              </div>
+            </div>
+            <button class="carousel-btn next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <section class="testimonial-section">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-container">
+          <div class="testimonial" id="testimonial">
+            <p class="quote">"This is the best service I have ever used!"</p>
+            <p class="author">- Jane Doe</p>
+          </div>
+          <div class="controls">
+            <button onclick="prevTestimonial()">&#8592; Prev</button>
+            <button onclick="nextTestimonial()">Next &#8594;</button>
+          </div>
+        </div>
+      </section>
+    
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <p>Follow us on</p>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
